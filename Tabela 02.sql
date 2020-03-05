@@ -1,0 +1,12 @@
+USE FACULDADE;
+
+CREATE TABLE CURSOS (
+	id_curso INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR (50) NOT NULL,
+    duracao INT NOT NULL,
+    periodo VARCHAR (30) NOT NULL);
+    
+    SELECT * FROM CURSOS
+
+
+    
